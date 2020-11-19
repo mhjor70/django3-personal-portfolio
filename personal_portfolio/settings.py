@@ -126,6 +126,6 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 try:
-    from .local_settings import *
+    from .localsettings import *
 except ImportError:
     print("Looks like no local file. You must be on production")
